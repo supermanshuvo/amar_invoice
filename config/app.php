@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Ausodher Dokan'),
+    'name' => env('APP_NAME', 'Ousuder Dukan'),
 
     /*
     |--------------------------------------------------------------------------
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY','base64:Ve87M/+605etj2xsgvEXd1vn8cHx0fcQG8/lBaFQDyU='),
+    'key' => env('APP_KEY','base64:cfDOtTJu4KPYG+plCFYf/eWz9ZAWnuCPMEEUv0SMH24='),
 
     'cipher' => 'AES-256-CBC',
 
