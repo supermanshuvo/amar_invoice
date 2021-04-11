@@ -1,4 +1,4 @@
-# Ausodher Dokan
+# Ousuder Dukan
 all about shop-keeping
 ## Coming Soon
 
