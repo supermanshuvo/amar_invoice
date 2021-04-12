@@ -15,13 +15,13 @@ class CreateBuyersTable extends Migration
     {
         Schema::create('buyers', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('number1');
-            $table->string('number2');
-            $table->string('city');
-            $table->string('area');
-            $table->text('address');
-            $table->text('payment');
+            $table->string('buyer_name');
+            $table->string('buyer_number1');
+            $table->string('buyer_number2');
+            $table->string('buyer_city');
+            $table->string('buyer_area');
+            $table->text('buyer_address');
+            $table->text('buyer_payment');
             $table->bigInteger('buyerId')->unsigned();
             $table->timestamps();
             $table->foreign('buyerId')->references('id')->on('users')->onDelete('cascade');

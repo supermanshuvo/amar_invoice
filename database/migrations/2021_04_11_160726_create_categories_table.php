@@ -15,14 +15,14 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->bigIncrements('id');
+            $table->bigIncrements('product_id');
             $table->string('medicine_name');
             $table->string('company_name');
             $table->string('slug')->unique();
-            $table->text('description')->nullable();
-            $table->string('price');
-            $table->string('type');
-            $table->string('image')->nullable();
+            $table->text('medicine_description')->nullable();
+            $table->string('medicine_price');
+            $table->string('medicine_type');
+            $table->string('medicine_image')->nullable();
             $table->timestamps();
         });
     }
