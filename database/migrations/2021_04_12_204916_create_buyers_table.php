@@ -22,7 +22,9 @@ class CreateBuyersTable extends Migration
             $table->string('area');
             $table->text('address');
             $table->text('payment');
+            $table->bigInteger('buyerId')->unsigned();
             $table->timestamps();
+            $table->foreign('buyerId')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
