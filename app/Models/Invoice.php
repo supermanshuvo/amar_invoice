@@ -9,6 +9,10 @@ class Invoice extends Model
 {
     use HasFactory;
     protected $table = 'invoices';
+    protected $fillable = [
+        'product_quantity',
+        'Order_id',
+    ];
     public function product(){
         return $this->belongsTo('App\Models\Product');
     }
