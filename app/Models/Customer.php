@@ -15,7 +15,8 @@ class Customer extends Model
         'customer_alt_contact',
         'customer_address',
     ];
-    public function user(){
-        return $this->belongsTo('App\Models\User');
+    public function user()
+    {
+        return $this->belongsTo(User::class);
     }
 }
