@@ -18,6 +18,6 @@ class Product extends Model
         'product_image',
     ];
     public function invoice(){
-        return $this->hasOne('App\Models\Invoice');
+        return $this->hasMany(Invoice::class);
     }
 }
