@@ -18,7 +18,7 @@ class CreatePromosTable extends Migration
             $table->string('promo_code');
             $table->string('promo_type');
             $table->string('promo_parcent');
-            $table->string('promo_amount');
+            $table->string('promo_amount_limit');
             $table->boolean('promo_status');
             $table->string('promo_start_date');
             $table->string('promo_end_date');
