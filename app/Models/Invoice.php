@@ -14,7 +14,7 @@ class Invoice extends Model
         'Order_id',
     ];
     public function product(){
-        return $this->belongsTo('App\Models\Product');
+        return $this->belongsTo(Product::class);
     }
     public function user()
     {
