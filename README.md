@@ -1,3 +1,3 @@
-# OUSUDER DUKAN
+# Amar Bipony
 all about shop-keeping
 ## Coming Soon
